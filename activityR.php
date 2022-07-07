@@ -1346,7 +1346,7 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1I10'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1I10" id="41" class="hidebx" value="1" style=""  required>
+                                                            <input type="radio" name="1I10" id="41" class="hidebx" value="1" style="" required>
                                                             <label for="41" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
@@ -1363,7 +1363,7 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } else { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1I10" id="41" class="hidebx" value="1" style=""  required>
+                                                            <input type="radio" name="1I10" id="41" class="hidebx" value="1" style="" required>
                                                             <label for="41" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
@@ -1371,7 +1371,7 @@ if (!$_SESSION["Cid"]) {  //check session
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1I10" id="42" class="hidebx" value="0" style="" >
+                                                            <input type="radio" name="1I10" id="42" class="hidebx" value="0" style="">
                                                             <label for="42" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
@@ -1405,7 +1405,7 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1I11'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1I11" id="43" class="hidebx" value="1" style=""  required>
+                                                            <input type="radio" name="1I11" id="43" class="hidebx" value="1" style="" required>
                                                             <label for="43" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
@@ -1422,7 +1422,7 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } else { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1I11" id="43" class="hidebx" value="1" style=""  required>
+                                                            <input type="radio" name="1I11" id="43" class="hidebx" value="1" style="" required>
                                                             <label for="43" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
@@ -1653,8 +1653,8 @@ if (!$_SESSION["Cid"]) {  //check session
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A4" id="30" class="hidebx" value="0" style="">
-                                                            <label for="30" class="lbl-radio">
+                                                            <input type="radio" name="1A4" id="52" class="hidebx" value="0" style="">
+                                                            <label for="52" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1662,16 +1662,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1A4'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A4" id="29" class="hidebx" value="1" style="" required>
-                                                            <label for="29" class="lbl-radio">
+                                                            <input type="radio" name="1A4" id="51" class="hidebx" value="1" style="" required>
+                                                            <label for="51" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A4" id="30" class="hidebx" value="0" style="" checked>
-                                                            <label for="30" class="lbl-radio">
+                                                            <input type="radio" name="1A4" id="52" class="hidebx" value="0" style="" checked>
+                                                            <label for="52" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1680,16 +1680,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                     <?php } else { ?>
 
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A4" id="29" class="hidebx" value="1" style="" required>
-                                                            <label for="29" class="lbl-radio">
+                                                            <input type="radio" name="1A4" id="51" class="hidebx" value="1" style="" required>
+                                                            <label for="51" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A4" id="30" class="hidebx" value="0" style="">
-                                                            <label for="30" class="lbl-radio">
+                                                            <input type="radio" name="1A4" id="52" class="hidebx" value="0" style="">
+                                                            <label for="52" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1705,8 +1705,8 @@ if (!$_SESSION["Cid"]) {  //check session
                                                 <div class="d-grid gap-3">
                                                     <?php if ($rows['1A5'] == '1') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A5" id="31" class="hidebx" value="1" style="" checked required>
-                                                            <label for="31" class="lbl-radio">
+                                                            <input type="radio" name="1A5" id="53" class="hidebx" value="1" style="" checked required>
+                                                            <label for="53" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
@@ -1722,16 +1722,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1A5'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A5" id="31" class="hidebx" value="1" style="" required>
-                                                            <label for="31" class="lbl-radio">
+                                                            <input type="radio" name="1A5" id="53" class="hidebx" value="1" style="" required>
+                                                            <label for="53" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A5" id="32" class="hidebx" value="0" style="" checked>
-                                                            <label for="32" class="lbl-radio">
+                                                            <input type="radio" name="1A5" id="54" class="hidebx" value="0" style="" checked>
+                                                            <label for="54" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1739,16 +1739,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } else { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A5" id="31" class="hidebx" value="1" style="" required>
-                                                            <label for="31" class="lbl-radio">
+                                                            <input type="radio" name="1A5" id="53" class="hidebx" value="1" style="" required>
+                                                            <label for="53" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A5" id="32" class="hidebx" value="0" style="">
-                                                            <label for="32" class="lbl-radio">
+                                                            <input type="radio" name="1A5" id="54" class="hidebx" value="0" style="">
+                                                            <label for="54" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1764,16 +1764,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                 <div class="d-grid gap-3">
                                                     <?php if ($rows['1A6'] == '1') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A6" id="33" class="hidebx" value="1" style="" checked required>
-                                                            <label for="33" class="lbl-radio">
+                                                            <input type="radio" name="1A6" id="55" class="hidebx" value="1" style="" checked required>
+                                                            <label for="55" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A6" id="34" class="hidebx" value="0" style="">
-                                                            <label for="34" class="lbl-radio">
+                                                            <input type="radio" name="1A6" id="56" class="hidebx" value="0" style="">
+                                                            <label for="56" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1781,16 +1781,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1A6'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A6" id="33" class="hidebx" value="1" style="" required>
-                                                            <label for="33" class="lbl-radio">
+                                                            <input type="radio" name="1A6" id="55" class="hidebx" value="1" style="" required>
+                                                            <label for="55" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A6" id="34" class="hidebx" value="0" style="" checked>
-                                                            <label for="34" class="lbl-radio">
+                                                            <input type="radio" name="1A6" id="56" class="hidebx" value="0" style="" checked>
+                                                            <label for="56" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1798,16 +1798,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } else { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A6" id="33" class="hidebx" value="1" style="" required>
-                                                            <label for="33" class="lbl-radio">
+                                                            <input type="radio" name="1A6" id="55" class="hidebx" value="1" style="" required>
+                                                            <label for="55" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A6" id="34" class="hidebx" value="0" style="">
-                                                            <label for="34" class="lbl-radio">
+                                                            <input type="radio" name="1A6" id="56" class="hidebx" value="0" style="">
+                                                            <label for="56" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1823,8 +1823,8 @@ if (!$_SESSION["Cid"]) {  //check session
                                                 <div class="d-grid gap-3">
                                                     <?php if ($rows['1A7'] == '1') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A7" id="35" class="hidebx" value="1" style="" checked required>
-                                                            <label for="35" class="lbl-radio">
+                                                            <input type="radio" name="1A7" id="57" class="hidebx" value="1" style="" checked required>
+                                                            <label for="57" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
@@ -1840,16 +1840,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1A7'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A7" id="35" class="hidebx" value="1" style="" required>
-                                                            <label for="35" class="lbl-radio">
+                                                            <input type="radio" name="1A7" id="57" class="hidebx" value="1" style="" required>
+                                                            <label for="57" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A7" id="36" class="hidebx" value="0" style="" checked>
-                                                            <label for="36" class="lbl-radio">
+                                                            <input type="radio" name="1A7" id="58" class="hidebx" value="0" style="" checked>
+                                                            <label for="58" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1857,16 +1857,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } else { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A7" id="35" class="hidebx" value="1" style="" required>
-                                                            <label for="35" class="lbl-radio">
+                                                            <input type="radio" name="1A7" id="57" class="hidebx" value="1" style="" required>
+                                                            <label for="57" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A7" id="36" class="hidebx" value="0" style="">
-                                                            <label for="36" class="lbl-radio">
+                                                            <input type="radio" name="1A7" id="58" class="hidebx" value="0" style="">
+                                                            <label for="58" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1882,16 +1882,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                 <div class="d-grid gap-3">
                                                     <?php if ($rows['1A8'] == '1') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A8" id="37" class="hidebx" value="1" style="" checked required>
-                                                            <label for="37" class="lbl-radio">
+                                                            <input type="radio" name="1A8" id="59" class="hidebx" value="1" style="" checked required>
+                                                            <label for="59" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A8" id="38" class="hidebx" value="0" style="">
-                                                            <label for="38" class="lbl-radio">
+                                                            <input type="radio" name="1A8" id="60" class="hidebx" value="0" style="">
+                                                            <label for="60" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1899,16 +1899,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1A8'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A8" id="37" class="hidebx" value="1" style="" required>
-                                                            <label for="37" class="lbl-radio">
+                                                            <input type="radio" name="1A8" id="59" class="hidebx" value="1" style="" required>
+                                                            <label for="59" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A8" id="38" class="hidebx" value="0" style="" checked>
-                                                            <label for="38" class="lbl-radio">
+                                                            <input type="radio" name="1A8" id="60" class="hidebx" value="0" style="" checked>
+                                                            <label for="60" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1916,16 +1916,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } else { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A8" id="37" class="hidebx" value="1" style="" required>
-                                                            <label for="37" class="lbl-radio">
+                                                            <input type="radio" name="1A8" id="59" class="hidebx" value="1" style="" required>
+                                                            <label for="59" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A8" id="38" class="hidebx" value="0" style="">
-                                                            <label for="38" class="lbl-radio">
+                                                            <input type="radio" name="1A8" id="60" class="hidebx" value="0" style="">
+                                                            <label for="60" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1941,16 +1941,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                 <div class="d-grid gap-3">
                                                     <?php if ($rows['1A9'] == '1') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A9" id="39" class="hidebx" value="1" style="" checked required>
-                                                            <label for="39" class="lbl-radio">
+                                                            <input type="radio" name="1A9" id="61" class="hidebx" value="1" style="" checked required>
+                                                            <label for="61" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A9" id="40" class="hidebx" value="0" style="">
-                                                            <label for="40" class="lbl-radio">
+                                                            <input type="radio" name="1A9" id="62" class="hidebx" value="0" style="">
+                                                            <label for="62" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1958,16 +1958,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1A9'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A9" id="39" class="hidebx" value="1" style="" required>
-                                                            <label for="39" class="lbl-radio">
+                                                            <input type="radio" name="1A9" id="61" class="hidebx" value="1" style="" required>
+                                                            <label for="61" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A9" id="40" class="hidebx" value="0" style="" checked>
-                                                            <label for="40" class="lbl-radio">
+                                                            <input type="radio" name="1A9" id="62" class="hidebx" value="0" style="" checked>
+                                                            <label for="62" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -1975,16 +1975,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } else { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A9" id="39" class="hidebx" value="1" style="" required>
-                                                            <label for="39" class="lbl-radio">
+                                                            <input type="radio" name="1A9" id="61" class="hidebx" value="1" style="" required>
+                                                            <label for="61" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A9" id="40" class="hidebx" value="0" style="">
-                                                            <label for="40" class="lbl-radio">
+                                                            <input type="radio" name="1A9" id="62" class="hidebx" value="0" style="">
+                                                            <label for="62" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -2000,16 +2000,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                 <div class="d-grid gap-3">
                                                     <?php if ($rows['1A10'] == '1') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A10" id="41" class="hidebx" value="1" style="" checked required>
-                                                            <label for="41" class="lbl-radio">
+                                                            <input type="radio" name="1A10" id="63" class="hidebx" value="1" style="" checked required>
+                                                            <label for="63" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A10" id="42" class="hidebx" value="0" style="">
-                                                            <label for="42" class="lbl-radio">
+                                                            <input type="radio" name="1A10" id="64" class="hidebx" value="0" style="">
+                                                            <label for="64" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -2017,16 +2017,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1A10'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A10" id="41" class="hidebx" value="1" style=""  required>
-                                                            <label for="41" class="lbl-radio">
+                                                            <input type="radio" name="1A10" id="63" class="hidebx" value="1" style="" required>
+                                                            <label for="63" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A10" id="42" class="hidebx" value="0" style="" checked>
-                                                            <label for="42" class="lbl-radio">
+                                                            <input type="radio" name="1A10" id="64" class="hidebx" value="0" style="" checked>
+                                                            <label for="64" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -2034,16 +2034,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } else { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A10" id="41" class="hidebx" value="1" style=""  required>
-                                                            <label for="41" class="lbl-radio">
+                                                            <input type="radio" name="1A10" id="63" class="hidebx" value="1" style="" required>
+                                                            <label for="63" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A10" id="42" class="hidebx" value="0" style="" >
-                                                            <label for="42" class="lbl-radio">
+                                                            <input type="radio" name="1A10" id="64" class="hidebx" value="0" style="">
+                                                            <label for="64" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -2059,16 +2059,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                 <div class="d-grid gap-3">
                                                     <?php if ($rows['1A11'] == '1') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A11" id="43" class="hidebx" value="1" style="" checked required>
-                                                            <label for="43" class="lbl-radio">
+                                                            <input type="radio" name="1A11" id="65" class="hidebx" value="1" style="" checked required>
+                                                            <label for="65" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A11" id="44" class="hidebx" value="0" style="">
-                                                            <label for="44" class="lbl-radio">
+                                                            <input type="radio" name="1A11" id="66" class="hidebx" value="0" style="">
+                                                            <label for="66" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -2076,16 +2076,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } elseif ($rows['1A11'] == '0') { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A11" id="43" class="hidebx" value="1" style=""  required>
-                                                            <label for="43" class="lbl-radio">
+                                                            <input type="radio" name="1A11" id="65" class="hidebx" value="1" style="" required>
+                                                            <label for="65" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A11" id="44" class="hidebx" value="0" style="" checked>
-                                                            <label for="44" class="lbl-radio">
+                                                            <input type="radio" name="1A11" id="66" class="hidebx" value="0" style="" checked>
+                                                            <label for="66" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -2093,16 +2093,16 @@ if (!$_SESSION["Cid"]) {  //check session
                                                         </div>
                                                     <?php } else { ?>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A11" id="43" class="hidebx" value="1" style=""  required>
-                                                            <label for="43" class="lbl-radio">
+                                                            <input type="radio" name="1A11" id="65" class="hidebx" value="1" style="" required>
+                                                            <label for="65" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">A.ชอบ</div>
                                                                 </div>
                                                             </label>
                                                         </div>
                                                         <div class="p-2">
-                                                            <input type="radio" name="1A11" id="44" class="hidebx" value="0" style="">
-                                                            <label for="44" class="lbl-radio">
+                                                            <input type="radio" name="1A11" id="66" class="hidebx" value="0" style="">
+                                                            <label for="66" class="lbl-radio">
                                                                 <div class="display-box">
                                                                     <div class="size">B.ไม่ชอบ</div>
                                                                 </div>
@@ -2120,6 +2120,1347 @@ if (!$_SESSION["Cid"]) {  //check session
 
                             <!-- End A -->
 
+                            <!-- Start S -->
+                            <button class="btn btn-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExampleE" aria-expanded="false" aria-controls="collapseWidthExample">
+                                <img src="" style="">หัวข้อ S
+                            </button>
+
+
+                            <div class="collapse collapse-horizontal" id="collapseWidthExampleE">
+                                <div class="content1">
+
+                                    <div class="app-paper">
+                                        <?php
+                                        foreach ($db->to_Obj($sql) as $rows) {
+                                        ?>
+                                            <!-- ข้อ 1 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">1.เขียนจดหมายถึงเพื่อน</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S1'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S1" id="67" class="hidebx" value="1" style="" checked required>
+                                                            <label for="67" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S1" id="68" class="hidebx" value="0" style="">
+                                                            <label for="68" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S1'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S1" id="67" class="hidebx" value="1" style="" required>
+                                                            <label for="67" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S1" id="68" class="hidebx" value="0" style="" checked>
+                                                            <label for="68" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S1" id="67" class="hidebx" value="1" style="" required>
+                                                            <label for="67" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S1" id="68" class="hidebx" value="0" style="">
+                                                            <label for="68" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 1 -->
+                                            <!-- ข้อ 2 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">2.เข้าร่วมทาบุญและฟังเทศน์ หรือพิธีทางศาสนา</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S2'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S2" id="69" class="hidebx" value="1" style="" checked required>
+                                                            <label for="69" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S2" id="70" class="hidebx" value="0" style="">
+                                                            <label for="70" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S2'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S2" id="69" class="hidebx" value="1" style="" required>
+                                                            <label for="69" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S2" id="70" class="hidebx" value="0" style="" checked>
+                                                            <label for="70" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S2" id="69" class="hidebx" value="1" style="" required>
+                                                            <label for="69" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S2" id="70" class="hidebx" value="0" style="">
+                                                            <label for="70" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 2 -->
+                                            <!-- ข้อ 3 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">3.เป็นสมาชิกขององค์การหรือสโมสรทางสังคม</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S3'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S3" id="71" class="hidebx" value="1" style="" checked required>
+                                                            <label for="71" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S3" id="72" class="hidebx" value="0" style="">
+                                                            <label for="72" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S3'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S3" id="71" class="hidebx" value="1" style="" required>
+                                                            <label for="71" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S3" id="72" class="hidebx" value="0" style="" checked>
+                                                            <label for="72" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S3" id="71" class="hidebx" value="1" style="" required>
+                                                            <label for="71" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S3" id="72" class="hidebx" value="0" style="">
+                                                            <label for="72" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 3 -->
+                                            <!-- ข้อ 4 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">4.ช่วยคนมีปัญหาทางจิตใจ </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S4'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S4" id="73" class="hidebx" value="1" style="" checked required>
+                                                            <label for="73" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S4" id="74" class="hidebx" value="0" style="">
+                                                            <label for="74" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S4'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S4" id="73" class="hidebx" value="1" style="" required>
+                                                            <label for="73" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S4" id="74" class="hidebx" value="0" style="" checked>
+                                                            <label for="74" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S4" id="73" class="hidebx" value="1" style="" required>
+                                                            <label for="73" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S4" id="74" class="hidebx" value="0" style="">
+                                                            <label for="74" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 4 -->
+                                            <!-- ข้อ 5 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">5.ดูแลเด็กๆ </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S5'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S5" id="75" class="hidebx" value="1" style="" checked required>
+                                                            <label for="75" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S5" id="76" class="hidebx" value="0" style="">
+                                                            <label for="76" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S5'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S5" id="75" class="hidebx" value="1" style="" required>
+                                                            <label for="75" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S5" id="76" class="hidebx" value="0" style="" checked>
+                                                            <label for="76" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S5" id="75" class="hidebx" value="1" style="" required>
+                                                            <label for="75" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S5" id="76" class="hidebx" value="0" style="">
+                                                            <label for="76" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 5 -->
+                                            <!-- ข้อ 6 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">6.ไปงานปาร์ตี้หรืองานสังคม งานเลี้ยงสังสรรค์ </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S6'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S6" id="77" class="hidebx" value="1" style="" checked required>
+                                                            <label for="77" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S6" id="78" class="hidebx" value="0" style="">
+                                                            <label for="78" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S6'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S6" id="77" class="hidebx" value="1" style="" required>
+                                                            <label for="77" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S6" id="78" class="hidebx" value="0" style="" checked>
+                                                            <label for="78" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S6" id="77" class="hidebx" value="1" style="" required>
+                                                            <label for="77" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S6" id="78" class="hidebx" value="0" style="">
+                                                            <label for="78" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 6 -->
+                                            <!-- ข้อ 7 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">7.เต้นรำ </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S7'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S7" id="79" class="hidebx" value="1" style="" checked required>
+                                                            <label for="79" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S7" id="80" class="hidebx" value="0" style="">
+                                                            <label for="80" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S7'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S7" id="79" class="hidebx" value="1" style="" required>
+                                                            <label for="79" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S7" id="80" class="hidebx" value="0" style="" checked>
+                                                            <label for="80" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S7" id="79" class="hidebx" value="1" style="" required>
+                                                            <label for="79" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S7" id="80" class="hidebx" value="0" style="">
+                                                            <label for="80" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 7 -->
+                                            <!-- ข้อ 8 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">8.ชอบอ่านหนังสือจิตวิทยา </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S8'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S8" id="81" class="hidebx" value="1" style="" checked required>
+                                                            <label for="81" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S8" id="82" class="hidebx" value="0" style="">
+                                                            <label for="82" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S8'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S8" id="81" class="hidebx" value="1" style="" required>
+                                                            <label for="81" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S8" id="82" class="hidebx" value="0" style="" checked>
+                                                            <label for="82" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S8" id="81" class="hidebx" value="1" style="" required>
+                                                            <label for="81" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S8" id="82" class="hidebx" value="0" style="">
+                                                            <label for="82" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 8 -->
+                                            <!-- ข้อ 9 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">9.เข้าร่วมประชุมทางวิชาการ</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S9'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S9" id="83" class="hidebx" value="1" style="" checked required>
+                                                            <label for="83" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S9" id="84" class="hidebx" value="0" style="">
+                                                            <label for="84" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S9'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S9" id="83" class="hidebx" value="1" style="" required>
+                                                            <label for="83" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S9" id="84" class="hidebx" value="0" style="" checked>
+                                                            <label for="84" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S9" id="83" class="hidebx" value="1" style="" required>
+                                                            <label for="83" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S9" id="84" class="hidebx" value="0" style="">
+                                                            <label for="84" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 9 -->
+                                            <!-- ข้อ 10 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">10.ไปดูการแข่งขันกีฬา</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S10'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S10" id="85" class="hidebx" value="1" style="" checked required>
+                                                            <label for="85" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S10" id="86" class="hidebx" value="0" style="">
+                                                            <label for="86" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S10'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S10" id="85" class="hidebx" value="1" style="" required>
+                                                            <label for="85" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S10" id="86" class="hidebx" value="0" style="" checked>
+                                                            <label for="86" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S10" id="85" class="hidebx" value="1" style="" required>
+                                                            <label for="85" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S10" id="86" class="hidebx" value="0" style="">
+                                                            <label for="86" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 10 -->
+                                            <!-- ข้อ 11 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">11.รู้จักเพื่อนใหม่ </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1S11'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S11" id="87" class="hidebx" value="1" style="" checked required>
+                                                            <label for="87" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S11" id="88" class="hidebx" value="0" style="">
+                                                            <label for="88" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1S11'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S11" id="87" class="hidebx" value="1" style="" required>
+                                                            <label for="87" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S11" id="88" class="hidebx" value="0" style="" checked>
+                                                            <label for="88" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S11" id="87" class="hidebx" value="1" style="" required>
+                                                            <label for="87" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1S11" id="88" class="hidebx" value="0" style="">
+                                                            <label for="88" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 11 -->
+                                        <?php } ?>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- End S -->
+
+                            <!-- Start E -->
+                            <button class="btn btn-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExampleS" aria-expanded="false" aria-controls="collapseWidthExample">
+                                <img src="" style="">หัวข้อ E
+                            </button>
+
+
+                            <div class="collapse collapse-horizontal" id="collapseWidthExampleS">
+                                <div class="content1">
+
+                                    <div class="app-paper">
+                                        <?php
+                                        foreach ($db->to_Obj($sql) as $rows) {
+                                        ?>
+                                            <!-- ข้อ 1 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">1.โน้มน้าวจิตใจผู้อื่น</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E1'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E1" id="67" class="hidebx" value="1" style="" checked required>
+                                                            <label for="67" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E1" id="68" class="hidebx" value="0" style="">
+                                                            <label for="68" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E1'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E1" id="67" class="hidebx" value="1" style="" required>
+                                                            <label for="67" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E1" id="68" class="hidebx" value="0" style="" checked>
+                                                            <label for="68" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E1" id="67" class="hidebx" value="1" style="" required>
+                                                            <label for="67" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E1" id="68" class="hidebx" value="0" style="">
+                                                            <label for="68" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 1 -->
+                                            <!-- ข้อ 2 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">2.ขายของ</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E2'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E2" id="69" class="hidebx" value="1" style="" checked required>
+                                                            <label for="69" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E2" id="70" class="hidebx" value="0" style="">
+                                                            <label for="70" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E2'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E2" id="69" class="hidebx" value="1" style="" required>
+                                                            <label for="69" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E2" id="70" class="hidebx" value="0" style="" checked>
+                                                            <label for="70" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E2" id="69" class="hidebx" value="1" style="" required>
+                                                            <label for="69" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E2" id="70" class="hidebx" value="0" style="">
+                                                            <label for="70" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 2 -->
+                                            <!-- ข้อ 3 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">3.อภิปรายเรื่องการเมือง</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E3'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E3" id="71" class="hidebx" value="1" style="" checked required>
+                                                            <label for="71" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E3" id="72" class="hidebx" value="0" style="">
+                                                            <label for="72" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E3'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E3" id="71" class="hidebx" value="1" style="" required>
+                                                            <label for="71" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E3" id="72" class="hidebx" value="0" style="" checked>
+                                                            <label for="72" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E3" id="71" class="hidebx" value="1" style="" required>
+                                                            <label for="71" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E3" id="72" class="hidebx" value="0" style="">
+                                                            <label for="72" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 3 -->
+                                            <!-- ข้อ 4 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">4.จัดการธุรกิจส่วนตัว  </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E4'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E4" id="73" class="hidebx" value="1" style="" checked required>
+                                                            <label for="73" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E4" id="74" class="hidebx" value="0" style="">
+                                                            <label for="74" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E4'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E4" id="73" class="hidebx" value="1" style="" required>
+                                                            <label for="73" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E4" id="74" class="hidebx" value="0" style="" checked>
+                                                            <label for="74" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E4" id="73" class="hidebx" value="1" style="" required>
+                                                            <label for="73" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E4" id="74" class="hidebx" value="0" style="">
+                                                            <label for="74" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 4 -->
+                                            <!-- ข้อ 5 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">5.เข้าร่วมการประชุม </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E5'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E5" id="75" class="hidebx" value="1" style="" checked required>
+                                                            <label for="75" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E5" id="76" class="hidebx" value="0" style="">
+                                                            <label for="76" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E5'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E5" id="75" class="hidebx" value="1" style="" required>
+                                                            <label for="75" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E5" id="76" class="hidebx" value="0" style="" checked>
+                                                            <label for="76" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E5" id="75" class="hidebx" value="1" style="" required>
+                                                            <label for="75" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E5" id="76" class="hidebx" value="0" style="">
+                                                            <label for="76" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 5 -->
+                                            <!-- ข้อ 6 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">6.แสดงปาฐกถา การอภิปราย</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E6'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E6" id="77" class="hidebx" value="1" style="" checked required>
+                                                            <label for="77" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E6" id="78" class="hidebx" value="0" style="">
+                                                            <label for="78" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E6'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E6" id="77" class="hidebx" value="1" style="" required>
+                                                            <label for="77" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E6" id="78" class="hidebx" value="0" style="" checked>
+                                                            <label for="78" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E6" id="77" class="hidebx" value="1" style="" required>
+                                                            <label for="77" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E6" id="78" class="hidebx" value="0" style="">
+                                                            <label for="78" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 6 -->
+                                            <!-- ข้อ 7 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">7.ทำงานมีตำแหน่งในหรือกลุ่มองค์การ </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E7'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E7" id="79" class="hidebx" value="1" style="" checked required>
+                                                            <label for="79" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E7" id="80" class="hidebx" value="0" style="">
+                                                            <label for="80" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E7'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E7" id="79" class="hidebx" value="1" style="" required>
+                                                            <label for="79" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E7" id="80" class="hidebx" value="0" style="" checked>
+                                                            <label for="80" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E7" id="79" class="hidebx" value="1" style="" required>
+                                                            <label for="79" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E7" id="80" class="hidebx" value="0" style="">
+                                                            <label for="80" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 7 -->
+                                            <!-- ข้อ 8 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">8.ให้คาปรึกษาเรื่องงานแก่ผู้อื่น  </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E8'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E8" id="81" class="hidebx" value="1" style="" checked required>
+                                                            <label for="81" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E8" id="82" class="hidebx" value="0" style="">
+                                                            <label for="82" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E8'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E8" id="81" class="hidebx" value="1" style="" required>
+                                                            <label for="81" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E8" id="82" class="hidebx" value="0" style="" checked>
+                                                            <label for="82" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E8" id="81" class="hidebx" value="1" style="" required>
+                                                            <label for="81" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E8" id="82" class="hidebx" value="0" style="">
+                                                            <label for="82" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 8 -->
+                                            <!-- ข้อ 9 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">9.พบบุคคลสาคัญ</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E9'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E9" id="83" class="hidebx" value="1" style="" checked required>
+                                                            <label for="83" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E9" id="84" class="hidebx" value="0" style="">
+                                                            <label for="84" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E9'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E9" id="83" class="hidebx" value="1" style="" required>
+                                                            <label for="83" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E9" id="84" class="hidebx" value="0" style="" checked>
+                                                            <label for="84" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E9" id="83" class="hidebx" value="1" style="" required>
+                                                            <label for="83" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E9" id="84" class="hidebx" value="0" style="">
+                                                            <label for="84" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 9 -->
+                                            <!-- ข้อ 10 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">10.นำกลุ่มให้บรรลุเป้าหมาย </p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E10'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E10" id="85" class="hidebx" value="1" style="" checked required>
+                                                            <label for="85" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E10" id="86" class="hidebx" value="0" style="">
+                                                            <label for="86" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E10'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E10" id="85" class="hidebx" value="1" style="" required>
+                                                            <label for="85" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E10" id="86" class="hidebx" value="0" style="" checked>
+                                                            <label for="86" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E10" id="85" class="hidebx" value="1" style="" required>
+                                                            <label for="85" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E10" id="86" class="hidebx" value="0" style="">
+                                                            <label for="86" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 10 -->
+                                            <!-- ข้อ 11 -->
+                                            <div class="card-asses">
+                                                <p class="card-text">11.มีส่วนร่วมในการรณรงค์ทางการเมือง</p>
+                                                <div class="d-grid gap-3">
+                                                    <?php if ($rows['1E11'] == '1') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E11" id="87" class="hidebx" value="1" style="" checked required>
+                                                            <label for="87" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E11" id="88" class="hidebx" value="0" style="">
+                                                            <label for="88" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } elseif ($rows['1E11'] == '0') { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E11" id="87" class="hidebx" value="1" style="" required>
+                                                            <label for="87" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E11" id="88" class="hidebx" value="0" style="" checked>
+                                                            <label for="88" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E11" id="87" class="hidebx" value="1" style="" required>
+                                                            <label for="87" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">A.ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <input type="radio" name="1E11" id="88" class="hidebx" value="0" style="">
+                                                            <label for="88" class="lbl-radio">
+                                                                <div class="display-box">
+                                                                    <div class="size">B.ไม่ชอบ</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    <?php } ?>
+                                                </div>
+                                            </div>
+                                            <!-- จบข้อ 11 -->
+                                        <?php } ?>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- End E -->
                         </center>
                 </div>
                 <div class="card-footer">
