@@ -71,6 +71,9 @@ if (!$_SESSION["Cid"]) {  //check session
                     })
             })()
         </script>
+        <script src="sweetalert2.min.js"></script>
+        <link rel="stylesheet" href="sweetalert2.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     </head>
 
     <body>
@@ -106,8 +109,8 @@ if (!$_SESSION["Cid"]) {  //check session
             <div class="container">
                 <div class="content">
                     <form name="frmReset" id="frmReset" action="UpDate.php" method="post">
-                        <div class="d-flex justify-content-end">
-                            <button class="btn btn-lg btn-success" name="btnReset" id="btnReset" value="Reset">เริ่มประเมินใหม่ <i class="fa-solid fa-arrow-rotate-left"></i> </button>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-lg btn-success" name="btnReset" id="btnReset" value="Reset" style="width: 100%;border-radius: 20px;" onclick="fireSweetAlert()">เริ่มประเมินใหม่ <i class="fa-solid fa-arrow-rotate-left"></i> </button>
                         </div>
                     </form>
                 </div>
@@ -196,7 +199,7 @@ if (!$_SESSION["Cid"]) {  //check session
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+        
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>

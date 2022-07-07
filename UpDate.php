@@ -13,6 +13,7 @@ if (isset($_SESSION['Cid'])) {
         //echo $sql;
         if ($db->todb($sql)) {
             $_SESSION["Cid"] = $_SESSION['Cid'];
+            
             echo "<meta http-equiv='refresh' content='2;url=index.php'>";
         }
     }

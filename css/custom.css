@@ -58,6 +58,20 @@ body {
   border: none;
 }
 
-.content {
+.container .content {
   margin-bottom: 20px;
+}
+.container .content button {
+  border: none;
+  height:100px;
+}
+.container .content button:hover {
+  transform: scale(1.1);
+
+  background: rgb(42, 199, 3);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 199, 3, 1) 0%,
+    rgba(70, 219, 68, 1) 100%
+  );
 }
