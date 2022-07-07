@@ -1,13 +1,13 @@
 <?php include("class_lib/db_conf.php"); ?>
 <?php include("class_lib/database.php"); ?>
 <?php $db = new Database(); ?>
-
+<div align="center"><img src="assets/waite.gif" width="200" height="200"></div>
 <?php
 session_start();
 if (isset($_POST['Cid'])) {
 	if ($_POST['btnSave'] == "Login") {
 		$Cid = $_POST['Cid'];
-		$sql = "SELECT * FROM `userlog` WHERE `Cid`= '$Cid'; ";
+		$sql = "SELECT * FROM `userlog`  WHERE `Cid`= '$Cid'; ";
 		//echo $sql;
 		if ($db->count_rows($sql) > 0) {
 ?>
@@ -19,15 +19,14 @@ if (isset($_POST['Cid'])) {
 				if ($rows['Cid'] != "") {
 
 					$_SESSION["Cid"] = $_POST['Cid'];
-					echo "<meta http-equiv='refresh' content='2;url=index.php'>";
+					echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 					exit;
 				} else {
-					
 			?>
 					<script type="text/javascript">
 						alert("Not Found!! your data?\r\nPlease contract your administrator system");
 					</script>
-					<?php echo "<meta http-equiv='refresh' content='2;url=Login.php'>"; ?>
+					<?php echo "<meta http-equiv='refresh' content='1;url=Login.php'>"; ?>
 			<?php
 				}
 			}
@@ -36,14 +35,14 @@ if (isset($_POST['Cid'])) {
 			<script type="text/javascript">
 				alert("Not Found!! your data?\r\nPlease contract your administrator system");
 			</script>
-			<?php echo "<meta http-equiv='refresh' content='2;url=Login.php'>"; ?>
+			<?php echo "<meta http-equiv='refresh' content='1;url=Login.php'>"; ?>
 		<?php
 
 		}
 	}
 
 	if ($_POST['btnRegis'] == "Login") {
-		$Cid = $_POST['Cid'];
+		$Cid = $_POST['RCid'];
 		$FName = $_POST['FName'];
 		$LName = $_POST['LName'];
 		$Gender = $_POST['gender'];
@@ -52,15 +51,15 @@ if (isset($_POST['Cid'])) {
 		//echo $sql;
 		if ($db->count_rows($sql) == 0) {
 			if ($db->todb($sql1)) {
-				$_SESSION["Cid"] = $_POST['Cid'];
-				echo "<meta http-equiv='refresh' content='2;url=index.php'>";
+				$_SESSION["Cid"] = $_POST['RCid'];
+				echo "<meta http-equiv='refresh' content='1;url=index.php'>";
 			}
 		} else {
 		?>
 			<script type="text/javascript">
 				alert("Not Found!! your data?\r\nPlease contract your administrator system");
 			</script>
-			<?php echo "<meta http-equiv='refresh' content='2;url=Login.php'>"; ?>
+			<?php echo "<meta http-equiv='refresh' content='1;url=Login.php'>"; ?>
 <?php
 		}
 	}

@@ -86,10 +86,10 @@ if (!$_SESSION["Cid"]) {  //check session
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.php" class="nav-item nav-link active">Home</a>
-
+                    <a href="logout.php" class="btn btn-danger py-4 px-lg-5  d-lg-block">Log Out <i class="fa fa-arrow-right ms-3"></i></a>
+               
                 </div>
-                <a href="logout.php" class="btn btn-danger py-4 px-lg-5 d-none d-lg-block">Log Out<i class="fa fa-arrow-right ms-3"></i></a>
+                
             </div>
         </nav>
         <!-- Navbar End -->
@@ -116,11 +116,10 @@ if (!$_SESSION["Cid"]) {  //check session
                                 <h5 class="card-title">หมวดที่ 1 กิจกรรม</h5>
                             </div>
                             <div class="card-body">
-
                                 <p class="card-text">ขอให้ท่านเลือก "ชอบ" สำหรับกิจกรรมที่ท่านชอบทำ และช่อง "ไม่ชอบ" ในกิจกรรมที่ท่านไม่ชอบ หรือรู้สึกเฉยๆ ต่อไปนี้</p>
                             </div>
                             <div class="card-footer">
-                                <a href="activityR.php"><button class="btn btn-primary">ไปตอบแบบสอบถาม</button></a>
+                                <a href="activityR.php"><button class="btn btn-primary">ไปตอบแบบทดสอบ</button></a>
                             </div>
                         </div>
 
@@ -138,7 +137,7 @@ if (!$_SESSION["Cid"]) {  //check session
                                 <p class="card-text">ขอให้ท่านเลือก "ชอบ" สำหรับกิจกรรมที่ท่านมีทักษะ และช่อง "ไม่ชอบ" ในกิจกรรมที่ท่านไม่มีทักษะหรือ ไม่ชำนาญ</p>
                             </div>
                             <div class="card-footer">
-                                <button class="btn btn-primary">ไปตอบแบบสอบถาม</button>
+                                <button class="btn btn-primary">ไปตอบแบบทดสอบ</button>
                             </div>
                         </div>
 
@@ -153,10 +152,10 @@ if (!$_SESSION["Cid"]) {  //check session
                             </div>
                             <div class="card-body">
 
-                                <p class="card-text">ขอให้ท่านเลือก "ชอบ" สำหรับกิจกรรมที่ท่านมีทักษะ และช่อง "ไม่ชอบ" ในกิจกรรมที่ท่านไม่มีทักษะหรือ ไม่ชำนาญ</p>
+                                <p class="card-text">แบบทดสอบนี้ จะสำรวจความรู้สึกและเจตคติของท่านเกี่ยวกับงานหลากหลายชนิด หากอาชีพใดที่ท่านรู้สึกชอบ หรือสนใจ ขอให้ท่านเลือก "ชอบ" และหากท่านไม่ชอบอาชีพใด ขอให้ท่านเลือก "ไม่ชอบ"</p>
                             </div>
                             <div class="card-footer">
-                                <button class="btn btn-primary">ไปตอบแบบสอบถาม</button>
+                                <button class="btn btn-primary">ไปตอบแบบทดสอบ</button>
                             </div>
                         </div>
                     </div>
