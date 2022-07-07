@@ -7,6 +7,13 @@ if (!$_SESSION["Cid"]) {  //check session
 
 } else {
 ?>
+    <?php include("class_lib/db_conf.php"); ?>
+    <?php include("class_lib/database.php"); ?>
+    <?php $db = new Database(); ?>
+    <?php
+    $Cid = $_SESSION['Cid'];
+    $sql = "SELECT * FROM `logtest` WHERE `Cid` = '$Cid' ORDER BY `TID` DESC LIMIT 1";
+    ?>
     <!DOCTYPE html>
     <html lang="en">
 
@@ -87,9 +94,9 @@ if (!$_SESSION["Cid"]) {  //check session
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="logout.php" class="btn btn-danger py-4 px-lg-5  d-lg-block">Log Out <i class="fa fa-arrow-right ms-3"></i></a>
-               
+
                 </div>
-                
+
             </div>
         </nav>
         <!-- Navbar End -->
@@ -106,59 +113,70 @@ if (!$_SESSION["Cid"]) {  //check session
                 </div>
                 <br>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <?php
+                    foreach ($db->to_Obj($sql) as $rows) {
+                    ?>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://www.pngmart.com/files/21/Activities-PNG-File.png" class="card-img-top" style="width:100%;max-width: 350px;" alt="...">
+                                </div>
+                                <div class="card-header">
+                                    <h5 class="card-title">หมวดที่ 1 กิจกรรม</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">ขอให้ท่านเลือก "ชอบ" สำหรับกิจกรรมที่ท่านชอบทำ และช่อง "ไม่ชอบ" ในกิจกรรมที่ท่านไม่ชอบ หรือรู้สึกเฉยๆ ต่อไปนี้</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="activityR.php"><button class="btn btn-primary">ไปตอบแบบทดสอบ</button></a>
+                                </div>
+                            </div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="https://www.pngmart.com/files/21/Activities-PNG-File.png" class="card-img-top" style="width:100%;max-width: 350px;" alt="...">
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img2">
+                                    <img src="https://png.pngtree.com/png-vector/20220531/ourmid/pngtree-ability-access-balance-banking-businessman-png-image_4770617.png" style="width:100%;max-width: 350px;" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-header">
+                                    <h5 class="card-title">หมวดที่ 2 ความสามารถ</h5>
+                                </div>
+                                <div class="card-body">
+
+                                    <p class="card-text">ขอให้ท่านเลือก "ใช่" สำหรับความสามารถที่ท่านมีทักษะ และช่อง "ไม่ใช่" หมายความทั้งทักษะที่ท่านไม่มี หรือถ้ามีก็ทาได้ไม่ชำนาญ</p>
+                                </div>
+                                <div class="card-footer">
+                                    <?php if ($rows['Sum1R'] != '') { ?>
+                                        <a href="activity2.php"><button class="btn btn-primary">ไปตอบแบบทดสอบ</button></a>
+                                    <?php } else { ?>
+                                        <button class="btn btn-primary" disabled>ไปตอบแบบทดสอบ</button>
+                                    <?php } ?>
+                                </div>
                             </div>
-                            <div class="card-header">
-                                <h5 class="card-title">หมวดที่ 1 กิจกรรม</h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">ขอให้ท่านเลือก "ชอบ" สำหรับกิจกรรมที่ท่านชอบทำ และช่อง "ไม่ชอบ" ในกิจกรรมที่ท่านไม่ชอบ หรือรู้สึกเฉยๆ ต่อไปนี้</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="activityR.php"><button class="btn btn-primary">ไปตอบแบบทดสอบ</button></a>
+
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="https://cdn.pixabay.com/photo/2017/08/27/21/42/man-2687628_1280.png" style="width:100%;max-width: 350px;height: 250px;" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-header">
+                                    <h5 class="card-title">หมวดที่ 3 อาชีพ</h5>
+                                </div>
+                                <div class="card-body">
+
+                                    <p class="card-text">แบบทดสอบนี้ จะสำรวจความรู้สึกและเจตคติของท่านเกี่ยวกับงานหลากหลายชนิด หากอาชีพใดที่ท่านรู้สึกชอบ หรือสนใจ ขอให้ท่านเลือก "สนใจ" และหากท่านไม่ชอบอาชีพใด ขอให้ท่านเลือก "ไม่สนใจ"</p>
+                                </div>
+                                <div class="card-footer">
+                                    <?php if ($rows['Sum2R'] != '') { ?>
+                                        <a href="activity3.php"><button class="btn btn-primary">ไปตอบแบบทดสอบ</button></a>
+                                    <?php } else { ?>
+                                        <button class="btn btn-primary" disabled>ไปตอบแบบทดสอบ</button>
+                                    <?php } ?>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-img2">
-                                <img src="https://png.pngtree.com/png-vector/20220531/ourmid/pngtree-ability-access-balance-banking-businessman-png-image_4770617.png" style="width:100%;max-width: 350px;" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-header">
-                                <h5 class="card-title">หมวดที่ 2 ความสามารถ</h5>
-                            </div>
-                            <div class="card-body">
-
-                                <p class="card-text">ขอให้ท่านเลือก "ชอบ" สำหรับกิจกรรมที่ท่านมีทักษะ และช่อง "ไม่ชอบ" ในกิจกรรมที่ท่านไม่มีทักษะหรือ ไม่ชำนาญ</p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn-primary">ไปตอบแบบทดสอบ</button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="https://cdn.pixabay.com/photo/2017/08/27/21/42/man-2687628_1280.png" style="width:100%;max-width: 350px;height: 250px;" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-header">
-                                <h5 class="card-title">หมวดที่ 3 อาชีพ</h5>
-                            </div>
-                            <div class="card-body">
-
-                                <p class="card-text">แบบทดสอบนี้ จะสำรวจความรู้สึกและเจตคติของท่านเกี่ยวกับงานหลากหลายชนิด หากอาชีพใดที่ท่านรู้สึกชอบ หรือสนใจ ขอให้ท่านเลือก "ชอบ" และหากท่านไม่ชอบอาชีพใด ขอให้ท่านเลือก "ไม่ชอบ"</p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn-primary">ไปตอบแบบทดสอบ</button>
-                            </div>
-                        </div>
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
@@ -168,7 +186,7 @@ if (!$_SESSION["Cid"]) {  //check session
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
         <!-- JavaScript Libraries -->
