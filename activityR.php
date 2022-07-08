@@ -107,29 +107,36 @@ if (!$_SESSION["Cid"]) {  //check session
             <div class="card">
                 <div class="card-header">
                     <h5 class="card-title"><b>หมวด 1 กิจกรรม</b></h5><br>
-                 
-                    <div class="row row-cols-3 row-cols-lg-2 g-2 g-lg-3">
-                        <?php
-                        foreach ($db->to_Obj($sql) as $rows) {
-                            if(($rows['Sum1R']!='') && ($rows['SUMI1']!='') && ($rows['SUMA1']!='') && ($rows['SUMS1']!='') && ($rows['SUME1']!='') && ($rows['SUMC1']!='') ){
-                        ?>
-                            <?php
-                            $arrays = $db->to_Obj($sql1)[0];
-                            $i = 0;
-                            arsort($arrays);
 
-                            foreach ($arrays as $key => $rows) {
-                                $i++;
-                                if ($i > 3) {
-                                    continue;
-                                }
-                            ?>
-                                <div class="col-md-4">
-                                    <input type="text" class="form-control " value="<?= $key ?>" readonly>
-                                </div>
-                            <?php }}?>
+
+                    <?php
+                    foreach ($db->to_Obj($sql) as $rows) {
+                        if (($rows['Sum1R'] != '') && ($rows['SUMI1'] != '') && ($rows['SUMA1'] != '') && ($rows['SUMS1'] != '') && ($rows['SUME1'] != '') && ($rows['SUMC1'] != '')) {
+                    ?>
+                            <div class="d-flex justify-content-center">
+                                <h6>หัวข้อที่ได้คะแนนมากที่สุด</h6>
+                            </div>
+                            <div class="row row-cols-3 row-cols-lg-2 g-2 g-lg-3">
+                                <?php
+                                $arrays = $db->to_Obj($sql1)[0];
+                                $i = 0;
+                                arsort($arrays);
+
+                                foreach ($arrays as $key => $rows) {
+                                    $i++;
+                                    if ($i > 3) {
+                                        continue;
+                                    }
+                                ?>
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control " value="<?= $key ?>" readonly>
+                                    </div>
+
+                            <?php }
+                            } ?>
+                            </div>
                         <?php } ?>
-                    </div>
+
                 </div>
 
                 <div class="card-body">
@@ -2221,7 +2228,7 @@ if (!$_SESSION["Cid"]) {  //check session
                                             <!-- จบข้อ 1 -->
                                             <!-- ข้อ 2 -->
                                             <div class="card-asses">
-                                                <p class="card-text">2.เข้าร่วมทาบุญและฟังเทศน์ หรือพิธีทางศาสนา</p>
+                                                <p class="card-text">2.เข้าร่วมำทำบุญและฟังเทศน์ หรือพิธีทางศาสนา</p>
                                                 <div class="d-grid gap-3">
                                                     <?php if ($rows['1S2'] == '1') { ?>
                                                         <div class="p-2">
@@ -3306,7 +3313,7 @@ if (!$_SESSION["Cid"]) {  //check session
                                             <!-- จบข้อ 8 -->
                                             <!-- ข้อ 9 -->
                                             <div class="card-asses">
-                                                <p class="card-text">9.พบบุคคลสาคัญ</p>
+                                                <p class="card-text">9.พบบุคคลสำคัญ</p>
                                                 <div class="d-grid gap-3">
                                                     <?php if ($rows['1E9'] == '1') { ?>
                                                         <div class="p-2">

@@ -108,11 +108,15 @@ if (!$_SESSION["Cid"]) {  //check session
                 <div class="card-header">
                     <h5 class="card-title"><b>หมวด 3 อาชีพ</b></h5><br>
 
-                    <div class="row row-cols-3 row-cols-lg-2 g-2 g-lg-3">
-                        <?php
-                        foreach ($db->to_Obj($sql) as $rows) {
-                            if (($rows['Sum3R'] != '') && ($rows['SUMI3'] != '') && ($rows['SUMA3'] != '') && ($rows['SUMS3'] != '') && ($rows['SUME3'] != '') && ($rows['SUMC3'] != '')) {
-                        ?>
+
+                    <?php
+                    foreach ($db->to_Obj($sql) as $rows) {
+                        if (($rows['Sum3R'] != '') && ($rows['SUMI3'] != '') && ($rows['SUMA3'] != '') && ($rows['SUMS3'] != '') && ($rows['SUME3'] != '') && ($rows['SUMC3'] != '')) {
+                    ?>
+                            <div class="d-flex justify-content-center">
+                                <h6>หัวข้อที่ได้คะแนนมากที่สุด</h6>
+                            </div>
+                            <div class="row row-cols-3 row-cols-lg-2 g-2 g-lg-3">
                                 <?php
                                 $arrays = $db->to_Obj($sql1)[0];
                                 $i = 0;
@@ -129,8 +133,9 @@ if (!$_SESSION["Cid"]) {  //check session
                                     </div>
                             <?php }
                             } ?>
+                            </div>
                         <?php } ?>
-                    </div>
+
                 </div>
 
                 <div class="card-body">

@@ -75,3 +75,29 @@ body {
     rgba(70, 219, 68, 1) 100%
   );
 }
+.card4 {
+  
+  max-width: 800px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  margin: 10px;
+  margin-right: 20px;
+  text-align: center;
+  box-shadow: 5px 10px 8px #888888;
+}
+.card4 .card-header{
+  font-size: 20px;
+}
+.card4 .card4-body input[type="text"]{
+  
+  background-color: #fff;
+  margin-right: 10px;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 30px;
+  
+}

@@ -8,5 +8,5 @@ define( 'DB_PORT', "3306"); // set port
 define('DB_NAME',"hollandtest");
 define( 'SEND_ERRORS_TO', 'josaha1244@gmail.com' );
 define( 'DISPLAY_DEBUG', true ); //display db errors?
-
+$connection = mysqli_connect('localhost','root','','hollandtest');
 ?>
