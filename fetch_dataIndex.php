@@ -20,8 +20,8 @@ $total_all_rows = mysqli_num_rows($totalQuery);
 $columns = array(
     0 => 'TID',
     1 => 'Cid',
-	2 => 'FName',
-	3 => 'LName',
+    2 => 'FName',
+    3 => 'LName',
     4 => 'date'
 
 
@@ -52,15 +52,36 @@ $query = mysqli_query($connection, $sql);
 $count_rows = mysqli_num_rows($query);
 $data = array();
 while ($row = mysqli_fetch_assoc($query)) {
+    $tid = $row['TID'];
+    $sub_array = array();
+    $sub_array[] = $row['TID'];
+    $sub_array[] = $row['Cid'];
+    $sub_array[] = [$row['FName'] , $row['LName']];
 
-        $sub_array = array();
-        $sub_array[] = $row['TID'];
-        $sub_array[] = $row['Cid'];
-        $sub_array[] = [$row['FName'],$row['LName']];
+    $sub_array[] = $row['date'];
+    $Tid  = $row['TID'];
+    $sql1 = "SELECT (`Sum1R`+`Sum2R`+`Sum3R`) as R ,(`SUMI1`+`SumI2`+`SumI3`) as I ,(`SUMA1`+`SumA2`+`SumA3`) as A ,(`SUMS1`+`SumS2`+`SumS3`) as S ,(`SUME1`+`SumE2`+`SumE3`) as E ,(`SUMC1`+`SumC2`+`SumC3`) as C FROM `logtest` WHERE `Tid` = '$Tid' ORDER BY `TID` DESC LIMIT 1";
+    $a = '';
+    foreach ($db->to_Obj($sql1) as $rows) {
+
+        $arrays = $db->to_Obj($sql1)[0];
+        $i = 0;
+        $a = ("");
+        arsort($arrays);
+       
+        foreach ($arrays as $key => $rows) {
             
-        $sub_array[] = $row['date'];
+            $i++;
+            if ($i > 3) {
+                continue;
+            }
+            $a[$i] =$key;
+        }
         
-        $data[] = $sub_array;
+    }
+    $sub_array[] = $a;
+    $sub_array[] = '<a href="toExcelTID.php?tid='.$tid.'"><button class="btn btn-primary">Export</button></a>';
+    $data[] = $sub_array;
 }
 
 $output = array(

@@ -14,6 +14,7 @@ if (!$_SESSION["Cid"]) {  //check session
     $Cid = $_SESSION['Cid'];
     $sql = "SELECT * FROM `logtest` WHERE `Cid` = '$Cid' ORDER BY `TID` DESC LIMIT 1";
     $sql1 = "SELECT (`Sum1R`+`Sum2R`+`Sum3R`) as R ,(`SUMI1`+`SumI2`+`SumI3`) as I ,(`SUMA1`+`SumA2`+`SumA3`) as A ,(`SUMS1`+`SumS2`+`SumS3`) as S ,(`SUME1`+`SumE2`+`SumE3`) as E ,(`SUMC1`+`SumC2`+`SumC3`) as C FROM `logtest` WHERE `Cid` = '$Cid' ORDER BY `TID` DESC LIMIT 1; ";
+    mysqli_query($connection,"set character set utf8");
     ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -22,6 +23,7 @@ if (!$_SESSION["Cid"]) {  //check session
         <meta charset="utf-8">
         <title>Hollnad Test</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta http-equiv=Content-Type content="text/html; charset=tis-620">
         <meta content="" name="keywords">
         <meta content="" name="description">
 
@@ -105,67 +107,68 @@ if (!$_SESSION["Cid"]) {  //check session
         <!-- Navbar End -->
 
         <!-- Service Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="content">
-                    <div class="table-responsive" style="display: block;">
-                        <table id="example" class="table table-bordered">
-                            <thead class="table-bordered">
-                                <th>ลำดับ</th>
-                                <th>เลขประจำตัวประชาชน</th>
-                                <th>ชื่อ-นามสกุล</th>
-                                <th>วันที่ทดสอบ</th>
-                                <th>ผลการทดสอบ</th>
-                            </thead>
+        <div class="container">
+            <div class="content">
+            <div class="d-flex justify-content-end"><a href="toExcelAll.php"><button class="btn btn-success"><i class="fas fa-print"></i> ExportAll</button></a></div><br>
+                <div class="table-responsive" style="display: block;">
+                    <table id="example" class="table table-hover">
+                        <thead class="table-bordered">
+                            <th>ลำดับ</th>
+                            <th>เลขประจำตัวประชาชน</th>
+                            <th>ชื่อ-นามสกุล</th>
+                            <th>วันที่ทดสอบ</th>
+                            <th>ผลการทดสอบ</th>
+                            <th>เมนู</th>
+                        </thead>
 
-                        </table>
-                    </div>
+                    </table>
                 </div>
-                <!-- Service End -->
+            </div>
+            <!-- Service End -->
+        </div>
 
 
 
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-                <!-- Back to Top -->
-                <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-                <!-- JavaScript Libraries -->
-                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-                <script src="lib/wow/wow.min.js"></script>
-                <script src="lib/easing/easing.min.js"></script>
-                <script src="lib/waypoints/waypoints.min.js"></script>
-                <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/dt-1.10.25datatables.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#example').DataTable({
+                    "fnCreatedRow": function(nRow, aData, iDataIndex) {
+                        $(nRow).attr('Cid', aData[0]);
+                    },
+                    'serverSide': 'true',
+                    'processing': 'true',
+                    'paging': 'true',
+                    'order': [],
+                    'ajax': {
+                        'url': 'fetch_dataIndex.php',
+                        'type': 'post',
+                    },
+                    "aoColumnDefs": [{
+                            "bSortable": false,
+                            "aTargets": [3]
+                        },
 
-                <!-- Template Javascript -->
-                <script src="js/main.js"></script>
-                <script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-                <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-                <script type="text/javascript" src="js/dt-1.10.25datatables.min.js"></script>
-                <script>
-                    $(document).ready(function() {
-                        $('#example').DataTable({
-                            "fnCreatedRow": function(nRow, aData, iDataIndex) {
-                                $(nRow).attr('Cid', aData[0]);
-                            },
-                            'serverSide': 'true',
-                            'processing': 'true',
-                            'paging': 'true',
-                            'order': [],
-                            'ajax': {
-                                'url': 'fetch_dataIndex.php',
-                                'type': 'post',
-                            },
-                            "aoColumnDefs": [{
-                                    "bSortable": false,
-                                    "aTargets": [3]
-                                },
-
-                            ]
-                        });
-                    });
-                </script>
+                    ]
+                });
+            });
+        </script>
     </body>
 
     </html>

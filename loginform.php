@@ -17,10 +17,15 @@ if (isset($_POST['Cid'])) {
 
 			foreach ($db->to_Obj($sql) as $rows) {
 				if ($rows['Cid'] != "") {
-
-					$_SESSION["Cid"] = $_POST['Cid'];
-					echo "<meta http-equiv='refresh' content='0;url=index.php'>";
-					exit;
+					if ($rows['cat'] == "0") {
+						$_SESSION["Cid"] = $_POST['Cid'];
+						echo "<meta http-equiv='refresh' content='0;url=index.php'>";
+						exit;
+					} elseif ($rows['cat'] == "1") {
+						$_SESSION["Cid"] = $_POST['Cid'];
+						echo "<meta http-equiv='refresh' content='0;url=indexAdmin.php'>";
+						exit;
+					}
 				} else {
 			?>
 					<script type="text/javascript">
