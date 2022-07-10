@@ -133,10 +133,11 @@ if (!$_SESSION["Cid"]) {  //check session
                                     <div class="col-md-4">
                                         <input type="text" class="form-control " value="<?= $key ?>" readonly>
                                     </div>
-                            <?php }
-                            } ?>
                             </div>
-                        <?php } ?>
+                    <?php }
+                            } ?>
+
+                <?php } ?>
 
                 </div>
 
